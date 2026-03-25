@@ -5,7 +5,7 @@ const app = express();
 app.use(express.json());
 
 // Connect MongoDB
-mongoose.connect('mongodb://admin:admin123@localhost:27017/giencar?authSource=admin');
+mongoose.connect('mongodb://localhost:27017/NNPTUD-S4');
 mongoose.connection.on('connected', function () {
     console.log("connected");
 });
